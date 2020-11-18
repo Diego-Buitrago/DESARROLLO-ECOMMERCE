@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, Arial, Helvetica;
+    text-decoration: none;
+}
+
+header {
+    width: 1185px;
+    height: 45px;
+    margin: auto;
+    background-color: #5b9bd5;
+    border: solid #333333;
+    box-shadow: 0px 22px 22px gray;
+    font-size: 15px;
+}
+
+header ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+header>ul>li {
+    line-height: 40px;
+    float: left;
+    padding-top: 5px;
+}
+
+header ul li a {
+    display: block;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+body {
+    text-align: center;
+}
+
+.div-index {
+    display: flex;
+    padding-left: 35%;
+}
+
+div>img {
+    position: relative;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+h2 {
+    position: absolute;
+    padding-left: 1120px;
+    color: white;
+}
+
+.carrito {
+    position: relative;
+    width: 50px;
+    padding-left: 70%;
+    padding-top: 5px;
+}
+
+.bienvenida {
+    padding: 20px;
+    color: #c14e72;
+}
+
+.logo-bienvenida {
+    width: 600px;
+}
+
+.h3-pantalon {
+    position: absolute;
+    padding-left: 30px;
+}
+
+.h3-short {
+    position: absolute;
+    padding-left: 320px;
+}
+
+.pantalon {
+    width: 200px;
+    padding-top: 20px;
+}
+
+.short {
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.h3-descripcion {
+    color: #5b9bd5;
+    padding: 3px;
+}
+
+.agregar-carrito {
+    background: #5b9bd5;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.div-pantalon ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.div-pantalon>ul>li {
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+.div-pantalon ul li img {
+    position: relative;
+    width: 250px;
+    padding: 20px;
+}
+
+.div-short>ul>li {
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+.div-short ul li img {
+    position: relative;
+    width: 250px;
+    padding: 20px;
+}
+
+.image-carrito {
+    width: 100px;
+}
+
+.btn-clear {
+    background: rgb(184, 68, 68);
+    width: 95px;
+    height: 30px;
+}
+
+.btn-danger {
+    background: rgb(184, 68, 68);
+    width: 80px;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+.pagar form input {
+    margin: 10px;
+    width: 250px;
+    height: 25px;
+}
+
+.pagar form div input {
+    margin: 10px;
+    width: 112px;
+    height: 25px;
+}
+
+.pagar form {
+    display: inline-grid;
+    padding: 20px;
+}
+
+.pagar form button {
+    display: inline-grid;
+    background: #6eabe2;
+    color: white;
+    padding: 15px;
+}
+
+.comprar {
+    background: #87cc64;
+    width: 95px;
+    height: 30px;
+}
+
+.whatsApp {
+    width: 64px;
+}
+
+.instagram {
+    width: 60px;
+}
+
+.facebook {
+    width: 58px;
+}
+
+.label-whatsApp {
+    color: #46b25d;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.label-instagram {
+    color: #c14e72;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.label-facebook {
+    color: #3a5898;
+    padding-left: 10px;
+}
+
+footer {
+    background: #f0f1b7;
+    width: 1185px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
